@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample 2</title>
+    <style>
+        * {
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+        }
+
+        body {
+    display: flex;
+    justify-content: center; /* Centers the card horizontally */
+    align-items: center; /* Centers the card vertically */
+    min-height: 100vh; /* Full viewport height */
+        }
+
+        .container {
+    border-radius: 10px;
+    width: 300px;
+    height: auto; /* Adjusts height based on content */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 15px;
+    margin: 10px;
+    background-color: white; /* Card background color */
+    text-align: center; /* Centers the text inside the container */
+}
+
+img {
+    width: 100%; /* Ensures image fills the container width */
+    height: auto; /* Keeps the image aspect ratio */
+    border-radius: 5px; /* Optional: Rounds the corners of the image */
+}
+
+.options1 {
+    display: flex;
+    justify-content: left; /* Centers the buttons */
+    gap: 10px; /* Adds space between the buttons */
+    margin-top: 10px; /* Space above the buttons */
+}
+
+h1 {
+    margin-top: 10px; /* Space above the heading */
+}
+
+p {
+    margin-top: 5px; /* Space above the paragraph */
+}
+
+.button1 {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: rgb(236, 241, 243);
+    cursor: pointer;
+    /* Add display: inline-block; if you want the buttons to maintain their own size */
+}
+
+button {
+    background-color: rgb(122, 151, 220);
+    color: white; /* Improved visibility */
+    border: none; /* Removes default border */
+    border-radius: 5px;
+    padding: 10px 20px; /* Adjusts padding for better appearance */
+    /* position: absolute; */
+    /* bottom: 15px; Positions the button at the bottom */
+    /* left: 50%; */
+    /* transform: translateX(-50%); Centers the button */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    margin-top: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.pinimg.com/originals/8e/fb/11/8efb11a0432a2416fbc57c90c320151c.png" class="image1">
+        <div class="options1">
+            <h3 class="button1">Devotion</h3>
+            <h3 class="button1">Power</h3>
+        </div>
+        <h1>Jai Hanuman</h1>
+        <p>Jai Hanuman Gyan guru sagar , jai kapcha tiho loka ujagara</p>
+        <button class="Button3">Read More</button>
+    </div>  
+</body>
+</html>
